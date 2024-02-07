@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My HTML</title>
+<style>
+    h1 {
+        background: red;
+    }
+
+    .img-test {
+        width: 50px;
+        height: 44px;
+    }
+
+    .red-text {
+        font-size: 24px;
+        color: red;
+    }
+</style>
+
+<body>
+    <h1>Heading</h1>
+    <p><b>ipsum</b> <strong>dolor</strong> <i>sit</i>, <em>amet</em>
+        <a href="https://www.w3schools.com/html/html_comments.asp" target="_blank"> consectetur </a>
+        <!--Link in word consectetur-->
+
+        <a href="https://www.w3schools.com/html/html_comments.asp" target="_blank">
+            <img class="img-test"
+                src="https://e7.pngegg.com/pngimages/868/829/png-clipart-white-and-blue-animal-print-logo-mdn-logo-icons-logos-emojis-tech-companies-thumbnail.png"
+                alt="Logo da MDN"></a>
+        <!--Link in a image above just open andd close with tag <a> -->
+
+        <del>red</del> <ins>blue</ins>, <s>adipisicing</s> <u> elit</u>. <small>Magni</small> dolores 2<sup>2</sup>
+        porro H<sub>2</sub>O
+        et iste
+        accusantium, reprehenderit <br>
+        <q>pariatur</q>
+        <hr>
+
+        dolore, quo aut <code> console.log</code>
+        vitae <span class="red-text">laudantium</span> repudiandae aspernatur reiciendis dicta
+        doloremque
+        consequatur atque.
+
+    <blockquote cite="https://www.w3schools.com/html/html_comments.asp"> corporiseveniet</blockquote>
+
+    <pre><code>
+        Text in a pre element
+        is displayed in a fixed-width
+        font, <span class="red-text">and it preserves
+        both   spaces and</span>
+        line 
+        breaks</code></pre>
+    <div class="red-text"> I'm an Block</div>
+
+</body>
+
+</html>
+
+<!-- Tag <b> is a bold tag who change the phisical state of the word-->
+<!-- Tag <strong> is a bold tag too to change logical state of word to turn it strong on speech-->
+<!-- Tag <i> is a italic tag to change phisical state-->
+<!-- Tag <em> is a italic tag to change logical state-->
+<!-- Tag <a> to use link in words, so will be <a href="link" and we can use targets like (_blank) to open a new window tab
+so will be <a href="link" target='_blank'>word</a> -->
+<!-- in style with can use classes with .class-name to edit them, in this classes 
+we are using a class to reference a image, so we edit the width and height using px (pixels)-->
+<!-- tag <del> delete a text in the document -->
+<!-- tag <ins> to insert a text on the document-->
+<!-- tag <s> use element element to represent things that are no longer relevant or no longer accurate. -->
+<!-- tag <u> to identify a text which should be a underlined-->
+<!--Tag <small> to define a smaller text which reduces font size-->
+<!-- tag <sup> Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font.-->
+<!--tag <sub> Subscript text appears half a character below the normal line, and is sometimes rendered in a smaller font-->
+<!--tag <br> inserts a single line break, it dont has a end tag like </br> it dont exist-->
+<!--tag <q> defines a short quotation -->
+<!--tag <blockquote> used for long quotations -->
+<!--we cant habe a <blockquote> in a <p> but with can have a <p> into <blockquote> -->
+<!-- <hr> insert a way to divide or separate document sections-->
+<!-- tag <code> used to define a piece of computer code -->
+<!-- tag <pre> defines preformatted text. 
+    Text in a <pre> element is displayed in a fixed-width font, 
+    and the text preserves both spaces and line breaks. 
+    The text will be displayed exactly as written in the HTML source code.-->
+<!--tag <span> for inline organization of text-->
+<!-- tag  <div> for a block organization of text-->
