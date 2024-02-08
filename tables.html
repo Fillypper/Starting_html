@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 800px;
+        }
+
+        table td,
+        table th {
+            border: 1px solid #ccc;
+            padding: 5px;
+            text-align: left;
+        }
+
+        body {
+            font-family: sans-serif;
+        }
+
+        table caption {
+            caption-side: top;
+            text-align: center;
+            font-style: italic;
+            font-size: 14px;
+            margin: 5px;
+        }
+
+        tfoot td,
+        table th {
+            background-color: #ddd;
+        }
+
+        tfoot td {
+            font-style: italic;
+        }
+
+        .table-one {
+            max-width: 100%;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Lorem ipsum dolor</p>
+    <div class="table-one">
+        <table>
+            <caption>The Description for table</caption>
+            <thead>
+                <tr>
+                    <th>Title 1</th>
+                    <th>Title 2</th>
+                    <th>Title 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Body 1</td>
+                    <td>Body 2</td>
+                    <td>Body 3</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Here</td>
+                    <td>Body 3</td>
+                </tr>
+                <tr>
+                    <td>Body 4</td>
+                    <td>Body 5</td>
+                    <td>Body 6</td>
+                </tr>
+                <tr>
+                    <td>Body 7</td>
+                    <td>Body 8</td>
+                    <td>Body 9</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="2" rowspan="2"></td>
+                    <td>Total: </td>
+                </tr>
+                <tr>
+                    <td>$555</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+
+</html>
