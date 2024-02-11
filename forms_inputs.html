@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        label {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="#" method="get" target="_blank" autocomplete="off">
+        <p>My Form</p>
+        <p>
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="name" placeholder="Your Name">
+        </p>
+
+        <p>
+            <label for="dev">Are you a Dev?</label>
+            <input type="checkbox" id="dev1" name="dev1" value="Yes"><br>
+            <label for="dev">Are you a Dev?</label>
+            <input type="checkbox" id="dev2" name="dev2" value="Yes"><br>
+            <label for="dev">Are you a Dev?</label>
+            <input type="checkbox" id="dev3" name="dev3" value="Yes">
+        </p>
+
+
+        <p>
+            Gênero: <br>
+            <label for="Female">Female</label>
+            <input type="radio" id="Female" name="Gender" value="Female"><br>
+            <label for="Male">Male</label>
+            <input type="radio" id="Male" name="Gender" value="Male"><br>
+            <label for="Other">Other</label>
+            <input type="radio" id="Other" name="Gender" value="Other">
+        </p>
+
+
+        <p>
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="name" placeholder="Your Name">
+        </p>
+
+        <p>
+            <label for="Date">Date:</label>
+            <input type="date" name="date" id="date">
+        </p>
+        <p>
+            <label for="datetime">Date:</label>
+            <input type="datetime-local" name="datetime" id="datetime" value="2024-11-01T07:40">
+        </p>
+
+        <p>
+            <label for="time">time</label>
+            <input type="time" name="time" id="time" value="07:40:06">
+        </p>
+        <p>
+            <label for="color">Favorite Color</label>
+            <input type="color" name="color" id="color" value="#cc33ff">
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Your E-mail">
+        </p>
+        <p>
+            <label for="photo">Your Photo</label>
+            <input type="file" name="file" id="file" accept=".png,.svg,image/*" multiple>
+        </p>
+
+        <p>
+            <label for="number">Number:</label>
+            <input type="number" name="number" id="number" placeholder="Type a number" min="10" max="50" step="5">
+        <p>
+        <p>
+            <label for="password">Your Password</label>
+            <input type="password" name="Password" id="password" placeholder="Type your password">
+        </p>
+        <p>
+            <label for="range">range:</label>
+            <input type="range" name="range" id="range" list="tickmarks">
+            <datalist id="tickmarks">
+                <option value="0">
+                <option value="10">
+                <option value="20">
+                <option value="30">
+                <option value="40">
+                <option value="50">
+                <option value="60">
+                <option value="70">
+                <option value="80">
+                <option value="90">
+                <option value="100">
+            </datalist>
+        </p>
+
+        <p>
+            <label for="url">Url</label>
+            <input type="url" name="url" id="url" placeholder="URL">
+        </p>
+        <p>
+            <label for="search">search</label>
+            <input type="search" name="search" id="search" placeholder="Search">
+        </p>
+        <p>
+            <label for="select">Select something:</label>
+            <select name="select" id="select">
+                <optgroup label="Test">
+                    <option value="however" label="">Label 1</option>
+                    <option value="however" label="">Label 1</option>
+                    <option value="however" label="">Label 1</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="textarea">Text Area</label>
+            <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+        </p>
+
+        <button type="reset">Reset</button>
+        <button type="submit">Send</button>
+        </p>
+    </form>
+
+</body>
+
+</html>
+
+<!-- DONT FORGET - Placeholder inside input tag are to user see inside input bar what his need to do -->
+
+<!-- input type text = for the user type a text, we can use id="" name="" to identify in backend
+and placeholder="" are a function to display a description in the input on page, we can use also
+value="" to automaticly type a word, disabled="" the user cannot type and readonly it the samething-->
+<!-- button type submit are to send the the information of form -->
+
+<!-- input radio similar a checkbox -->
+<!-- input name = user will type his Name -->
+<!-- input date to select a date -->
+<!-- input date time to select date and time -->
+<!-- input time to select a time -->
+<!-- input color to choose a color -->
+<!--  input email to type email with a little verification-->
+<!-- input file to choose files specifieds in accept and accepting multiple files -->
+<!-- input number to put cell number to with min and max choose a number between this -->
+<!-- input type password to when user type his password the numbers or latters become a dots -->
+<!-- input range its a range bar to select a number dragging -->
+<!-- input url to put a url with a little verification -->
+<!-- input search its a search bar with a little x in the bar to clear the content -->
+<!-- with a label we've a select tag to make a drop down list with options, and if we need to
+agroup this informations we can use optgroup and write the option inside -->
+<!-- with a label again we can create a textarea with a number of rows and columns to user
+type a text inside -->
+<!-- and a button with a type="reset" to clear all form and type="submit" to send info for db -->
