@@ -1,5 +1,28 @@
-.box {
-    background-color: yellow;
-    height: 120px;
-    width: 120px;
+* /* All */ {
+    margin: 0;
+    padding: 0;
 }
+/*  h1, p {
+    color: purple;
+ }
+
+body div section p,
+body div section h1 {
+    color: red;
+}
+ */
+
+
+/* 
+ div.main-content h1.heading{
+    font-style: italic;
+    color: red;
+ } */
+
+div {
+    color: initial;
+}
+
+.pai .filha { /* Chield Selector */
+    color: red;
+ }
