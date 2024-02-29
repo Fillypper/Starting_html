@@ -8,6 +8,10 @@
 }
 
 
-.one~.two {
+.one~.two { /* General sibling selector */
+    color: red;
+}
+
+[my-attribute]{
     color: red;
 }
