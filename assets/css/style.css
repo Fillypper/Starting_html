@@ -3,15 +3,49 @@
     padding: 0;
 }
 
-.father h1+p { /* adjacent sibling selector */
-    color: red;
+.Heading {
+    transition: all 1s ease-in-out;
 }
 
-
-.one~.two { /* General sibling selector */
-    color: red;
+.Heading:hover {
+    background-color: wheat;
 }
 
-[my-attribute]{
+a:link {
+    color: dimgray;
+}
+
+a:visited{
+    color: firebrick;
+}
+
+a:hover {
+    background: darksalmon;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:active {
+    background: darkgreen;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/* input:focus {
+    box-shadow: 0 0 5px rgba(0  , 0, 0, 0.5);
+    outline: none;
+    border: 1px solid black;
+}
+
+input:enabled{
+    background-color: red;
+    cursor: not-allowed;
+} */
+
+/* input:checked + p{
+    background: red;
+} */
+
+.father .list li:last-child{
     color: red;
 }
