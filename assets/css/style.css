@@ -3,18 +3,27 @@
     padding: 0;
 }
 
-p:nth-child(even){
-    background-color: darkviolet;
+p{
+    font-size: 24px;
 }
 
-p:nth-child(odd){
-    background-color: firebrick;
+p::first-letter{
+    font-size: 150px;
+    display: block;
+    float: left;
+    margin: 0 10px 10px 0;
 }
 
-p:nth-child(3n){ /* lines with multiple is 3 */
-    background-color: darkcyan;
+p::first-line{
+    background-color: red;
 }
 
-p:nth-child(3n+5){ /* after  5 lines it become with multiple of 3 */
-    background-color: darkkhaki;
+p::selection{
+    background-color: blueviolet;
+    color: whitesmoke;
+}
+
+.form-field::placeholder{
+    font-style: italic;
+    background-color: red;
 }
