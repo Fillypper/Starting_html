@@ -3,56 +3,18 @@
     padding: 0;
 }
 
-.Heading {
-    transition: all 1s ease-in-out;
+p:nth-child(even){
+    background-color: darkviolet;
 }
 
-.Heading:hover {
-    background-color: wheat;
+p:nth-child(odd){
+    background-color: firebrick;
 }
 
-a:link {
-    color: dimgray;
+p:nth-child(3n){ /* lines with multiple is 3 */
+    background-color: darkcyan;
 }
 
-a:visited{
-    color: firebrick;
-}
-
-a:hover {
-    background: darksalmon;
-    color: whitesmoke;
-    text-decoration: none;
-}
-
-a:active {
-    background: darkgreen;
-    color: whitesmoke;
-    text-decoration: none;
-}
-
-input:focus {
-    box-shadow: 0 0 5px rgba(0  , 0, 0, 0.5);
-    outline: none;
-    border: 1px solid black;
-}
-
-input:enabled{
-    background-color: red;
-} */
-
-input:checked + p{
-    background: red;
-}
-
-.father .list li:last-child{
-    color: red;
-}
-
-p:not(.mid) { /* Selecting all p's but without p with mid class */
-    color: blue;
-}
-
-input:not(:checked) + p { /* if input not checked, the first p after input will be the background yellow */
-    background: yellow;
+p:nth-child(3n+5){ /* after  5 lines it become with multiple of 3 */
+    background-color: darkkhaki;
 }
