@@ -31,7 +31,7 @@ a:active {
     text-decoration: none;
 }
 
-/* input:focus {
+input:focus {
     box-shadow: 0 0 5px rgba(0  , 0, 0, 0.5);
     outline: none;
     border: 1px solid black;
@@ -39,13 +39,20 @@ a:active {
 
 input:enabled{
     background-color: red;
-    cursor: not-allowed;
 } */
 
-/* input:checked + p{
+input:checked + p{
     background: red;
-} */
+}
 
 .father .list li:last-child{
     color: red;
+}
+
+p:not(.mid) { /* Selecting all p's but without p with mid class */
+    color: blue;
+}
+
+input:not(:checked) + p { /* if input not checked, the first p after input will be the background yellow */
+    background: yellow;
 }
