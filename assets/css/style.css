@@ -1,29 +1,16 @@
-* /* All */ {
+* { 
     margin: 0;
     padding: 0;
 }
 
-p{
-    font-size: 24px;
-}
-
-p::first-letter{
-    font-size: 150px;
+.grid::after {
+    content: '';
     display: block;
+    clear: both;
+}
+.grid .col {
+    width: 33.33%;
+    height: 300px;
+    background: red;
     float: left;
-    margin: 0 10px 10px 0;
-}
-
-p::first-line{
-    background-color: red;
-}
-
-p::selection{
-    background-color: blueviolet;
-    color: whitesmoke;
-}
-
-.form-field::placeholder{
-    font-style: italic;
-    background-color: red;
 }
