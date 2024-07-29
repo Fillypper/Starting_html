@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My HTML</title>
+    <style>
+        .img-in-text {
+            width: 150px;
+            height: 100px;
+        }
+        .red{
+            font-size: 24px;
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Heading</h1>
+    <h1>Heading</h1>
+    <p><b>Lorem</b> <strong>ipsum</strong> <i>dolor</i> <em>sit</em> <a
+            href="https://www.atlassian.com/br/git/tutorials/saving-changes/gitignore" target="_blank">amet<img
+                class="img-in-text"
+                src="https://wac-cdn.atlassian.com/dam/jcr:d1f1a28b-11fc-4e22-b6c8-d47832b39d53/devops-learning-path-resized.png?cdnVersion=2079"
+                alt="DevOps"></a>
+        <del>vermelho</del> <ins>azul</ins> <s>consectetur</s>, <u>adipisicing</u> elit. Veniam molestiae 2<sup>2</sup>
+        H<sub>2</sub>O dolore commodi <br>recusandae alias itaque autem quae corrupti
+        distinctio numquam quam quidem, provident <q
+            cite="https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods">voluptatem error</q> 
+    </p>
+    <blockquote>suscipit hic officiis
+        esse ratione?</blockquote>
+    <p><span class="red">Lorem</span> ipsum dolor sit amet consectetur, adipisicing <code>console.log</code> elit. Veniam molestiae dolore commodi recusandae alias itaque
+        autem quae corrupti distinctio numquam quam quidem, provident voluptatem error suscipit hic officiis esse
+        ratione?</p>
+        <pre>
+            <code>public enum MyEnum {
+                ELEMENT_1(...),
+                ELEMENT_2(...)
+            
+                private final Data data;
+            
+                MyEnum(Data data) {
+                    this.data = data;
+                }
+            
+                public Data getData() {
+                    return this.data;
+                }
+            }
+             </code>
+        </pre>
+</body>
+
+</html>
+
+<!-- Tag <b> is a bold tag who change the phisical state of the word-->
+<!-- Tag <strong> is a bold tag too to change logical state of word to turn it strong on speech-->
+<!-- Tag <i> is a italic tag to change phisical state-->
+<!-- Tag <em> is a italic tag to change logical state-->
+<!-- Tag <a> to use link in words, so will be <a href="link" and we can use targets like (_blank) to open a new window tab
+so will be <a href="link" target='_blank'>word</a> -->
+<!-- in style with can use classes with .class-name to edit them, in this classes 
+we are using a class to reference a image, so we edit the width and height using px (pixels)-->
+<!-- tag <del> delete a text in the document -->
+<!-- tag <ins> to insert a text on the document-->
+<!-- tag <s> use element element to represent things that are no longer relevant or no longer accurate. -->
+<!-- tag <u> to identify a text which should be a underlined-->
+<!--Tag <small> to define a smaller text which reduces font size-->
+<!-- tag <sup> Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font.-->
+<!--tag <sub> Subscript text appears half a character below the normal line, and is sometimes rendered in a smaller font-->
+<!--tag <br> inserts a single line break, it dont has a end tag like </br> it dont exist-->
+<!--tag <q> defines a short quotation -->
+<!--tag <blockquote> used for long quotations -->
+<!--we cant habe a <blockquote> in a <p> but with can have a <p> into <blockquote> -->
+<!-- <hr> insert a way to divide or separate document sections-->
+<!-- tag <code> used to define a piece of computer code -->
+<!-- tag <pre> defines preformatted text. 
+    Text in a <pre> element is displayed in a fixed-width font, 
+    and the text preserves both spaces and line breaks. 
+    The text will be displayed exactly as written in the HTML source code.-->
+<!--tag <span> for inline organization of text-->
+<!-- tag  <div> for a block organization of text-->
